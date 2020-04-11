@@ -24,4 +24,5 @@ fields:
   name: type
   label: type
 pages:
+- content/author/salawu-habeeblai.md
 - content/testing.md
