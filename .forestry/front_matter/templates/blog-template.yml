@@ -24,5 +24,4 @@ fields:
   name: type
   label: type
 pages:
-- content/author/habeb.md
 - content/testing.md
