@@ -1,0 +1,134 @@
+############################ Default configuration #########################
+baseURL = "/"
+languageCode = "en-us"
+# site title 
+title = "Waaprint Blog"
+# theme
+theme = "northendlab-hugo"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+
+########################### Navigation ###################################
+
+# main menu
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
+
+[[menu.main]]
+URL = "about"
+name = "about us"
+weight = 2
+
+[[menu.main]]
+URL = "faq"
+name = "F.A.Q"
+weight = 3
+
+
+# footer menu
+[[menu.footer]]
+URL = "contact"
+name = "Contact us"
+weight = 1
+
+[[menu.footer]]
+URL = "about"
+name = "about us"
+weight = 2
+
+[[menu.footer]]
+URL = "faq"
+name = "F.A.Q"
+weight = 3
+
+
+######################### Default Parameters ###########################
+[params]
+# home
+home = "Home"
+# logo
+logo = "images/wb.png"
+# meta data
+author = "Adams Paul"
+description = "Waaprint.com blog, the #1 On demand printing platform."
+# google tag manager
+google_tag_manager = "" # your id
+# google analitycs ID
+google_analitycs_id = "" # your id
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# copyright
+copyright = "&copy; 2020 [Waaprint](https://waaprint.com) All Rights Reserved"
+
+# preloader
+[params.preloader]
+enable = false
+preloader = "" # use png, jpg, svg or gif format
+
+# search
+[params.search]
+enable = true
+
+
+####################### banner #######################################
+[params.banner]
+bgImage = "images/banner/banner-bg.svg"
+title = "Waaprint Blog. <br> Stay ahead, Stay updated!"
+image = "images/banner/illustration.svg"
+
+
+######################## call to action ###############################
+[params.cta]
+enable = true
+image = "images/main.png"
+title = "Get the best printing deals!"
+description = "www.waaprint.com, the #1 On demand printing platform in Africa."
+[params.cta.button]
+enable = true
+label = "Visit Here"
+link = "https://waaprint.com/"
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+link = "https://www.fb.com/waaprint1"
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+link = "https://twitter.com/Waaprint1"
+[[params.social]]
+icon = "ti-instagram" # themify icon pack https://themify.me/themify-icons
+link = "https://instagram.com/waaprint1"
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/waaprint"
