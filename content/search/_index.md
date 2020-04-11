@@ -1,5 +1,5 @@
 ---
-title: "Search Result"
-draft: false
-description : "this is meta description"
+title: Search Result
+description: Waaprint - Search Results
+
 ---
