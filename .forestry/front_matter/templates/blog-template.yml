@@ -24,5 +24,6 @@ fields:
   name: type
   label: type
 pages:
+- content/author/olumurewa-olubela.md
 - content/author/salawu-habeeblai.md
 - content/testing.md
