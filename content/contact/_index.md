@@ -1,8 +1,7 @@
 ---
-title: "Contact Us"
-draft: false
-description : "this is meta description"
-image: "images/contact.svg"
----
+title: Contact Us
+description: Waaprint - Contact Us
+image: images/contact.svg
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+---
+Send us a message asap!
